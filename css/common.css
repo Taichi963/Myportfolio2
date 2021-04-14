@@ -1,0 +1,89 @@
+@charset "UTF-8";
+html {
+  width: 100%;
+}
+body{
+  width: 100%;
+	color : #000;
+	font-size : 16px;
+	font-family : "游ゴシック",sans-serif;
+	line-height : 1.6;
+  border-collapse:none;
+  }
+/*---------header start---- */
+.header {
+  background-color: rgb(218,230,255);
+  width: 100%;
+  }
+  
+  .nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .nav li {
+    line-height: 5;
+    font-size: 16px;
+  }
+  
+  .nav li:first-child {
+    padding-left: 100px;
+  }
+  
+  
+  .nav li:last-child {
+    padding-right: 100px;
+  }
+  
+  
+  .nav li a{
+  float: left;
+  text-decoration: none;
+  color: #000;
+  opacity: 0.5;
+  }
+  
+  .nav li a:hover{
+  opacity: 1;
+  }
+  /* -------header end---- */
+main {
+padding-top: 150px;
+	margin: 0 auto;
+}
+li {
+	list-style-type : none;
+}
+footer{
+	width : 100%;
+	background-color:#ccc;
+  position: relative;
+  bottom: 0;
+}
+
+.icons {
+  padding-left: 20px;
+}
+footer li {
+  padding-left: 20px;
+	text-align: left;
+	opacity: 0.8;
+	text-decoration: none;
+	list-style: none;
+}
+
+footer li:hover{
+	opacity: 1;
+}
+
+@media screen and (max-width:600px) {
+  body {
+    font: size 3vw;;
+    width: 700px;
+  }
+  .nav ul {
+    display: inline;
+    margin: 0 8px;
+  }
+}

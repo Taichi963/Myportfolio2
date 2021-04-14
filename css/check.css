@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  
+}
+
+#content {
+  padding-top: 200px;
+}
+
+footer{
+  height:200px;
+  position:absolute;
+  bottom:0;
+}

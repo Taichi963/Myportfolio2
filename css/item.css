@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* ------ main start -------------- */
+body {
+  width: 100%;
+}
+
+.child {
+	font-size:30px;
+	margin-bottom:100px;
+	padding-bottom: 40px;
+	text-align: center;
+	color: red;
+}
+
+.wrapper img {
+  display: inline-block;
+  padding-bottom: 30px;
+  padding-left: 10%;
+}
+
+#hinmei {
+ color: red;
+ text-align: center;
+ padding: 20px 0 20px 0;
+ font-size: 20px;
+}
+
+#setumei {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #000;
+  margin-left: 200px;
+}
+
+#price {
+  padding: 0 0 200px 0;
+  text-align: center;
+}
+
+.submit{
+  margin: 40px 0 10px 30%; 
+  width: 100px;
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  background-color: #ffa300;
+  font-size: 16px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 4px;
+  border-bottom: 4px solid #d37800;
+}
+.submit:active {
+  transform: translateY(4px);
+  border-bottom: none;
+}
+
+
+.popup:focus, .popup:active {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    height: auto;
+    z-index: 100;
+    background: #fff;
+    padding: 20px;
+    outline: 1px solid #aaa;
+    max-width:40vw;
+}
+.popup {
+    height: 96px;
+    width:auto;
+    cursor: pointer;
+    display: inline;
+}
+
+
+/* ------ main end -------------- */
+
+/*------- footer  ------*/
+
+
+/* ------- footer end ------ */
